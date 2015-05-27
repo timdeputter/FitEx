@@ -1,2 +1,0 @@
-defmodule Exit do
-end
