@@ -1,7 +1,7 @@
 FitEx
 ====
 
-FitEx is a Micro-Module which provides a bit of sugar for function definitions.
+FitEx is a Micro-Module which provides a alternative way for function definitions.
 If you need an anonymous functions which takes a single argument like this:
 
 ```elixir
@@ -13,6 +13,9 @@ you can use the short version:
 ```elixir
 f it + 1
 ```
+
+I know, I know... You could use &(&1+1). That's right. I more or less created this to try out macros.
+
 ## Installation
 
 Add rendezvous as a dependency in your mix.exs file:
