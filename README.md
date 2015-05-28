@@ -1,5 +1,5 @@
-FitEx [![Build Status](https://travis-ci.org/Puddah/FitEx.svg?branch=master)]
-====
+FitEx [![Build Status](https://travis-ci.org/Puddah/Rendezvous.svg?branch=master)](https://travis-ci.org/Puddah/Rendezvous)
+==========
 
 FitEx is a little Macro-Module which provides a alternative way for function definitions.
 If you need an anonymous functions which takes a single argument like this:
