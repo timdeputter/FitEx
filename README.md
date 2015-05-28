@@ -1,4 +1,4 @@
-FitEx
+FitEx ![Build Status](https://travis-ci.org/Puddah/FitEx.svg?branch=master)
 ====
 
 FitEx is a little Macro-Module which provides a alternative way for function definitions.
