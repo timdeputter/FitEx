@@ -38,13 +38,19 @@ and run `mix deps.get`.
 By using FitEx you can write functions with one parameter by using t f macro. The parameter is named 'it'. 
 
 ```elixir
-# One liner
-func = f it + 1
+defmodule Somemodule do
+  use FitEx
+  
+  def some_function do
+    # One liner
+    func = f it + 1
 
-# or multi line function-body
-func = f do
-  it_plus_one = it + 1
-  it_plus_one * 2
+    # or multi line function-body
+    func = f do
+      it_plus_one = it + 1
+      it_plus_one * 2
+    end
+  end
 end
 ```
 
