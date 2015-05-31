@@ -21,7 +21,7 @@ And anyway, I more or less created this to try out macros, inspired by the Kotli
 
 ## Installation
 
-Add rendezvous as a dependency in your mix.exs file:
+Add FitEx as a dependency in your mix.exs file:
 
 ```elixir
   defp deps do
