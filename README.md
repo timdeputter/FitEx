@@ -18,6 +18,36 @@ I know, I know... You could use &(&1+1). That's right, but maybe the provided sy
 And anyway, I more or less created this to try out macros.
 
 
+
+## Installation
+
+Add rendezvous as a dependency in your mix.exs file:
+
+```elixir
+  defp deps do
+    [
+      FitEx: "~> 0.0.1"
+    ]
+  end
+```
+
+and run `mix deps.get`.
+
+## Usage
+
+By using FitEx you can write functions with one parameter by using t f macro. The parameter is named 'it'. 
+
+```elixir
+# One liner
+func = f it + 1
+
+# or multi line function-body
+func = f do
+  it_plus_one = it + 1
+  it_plus_one * 2
+end
+```
+
 ## License
 
 Check [LICENSE](LICENSE) file for more information.
