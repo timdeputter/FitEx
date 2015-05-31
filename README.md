@@ -15,7 +15,7 @@ f it + 1
 ```
 
 I know, I know... You could use &(&1+1). That's right, but maybe the provided syntax is a little bit more readable.
-And anyway, I more or less created this to try out macros.
+And anyway, I more or less created this to try out macros, inspired by the Kotlin lambda syntax: http://kotlinlang.org/docs/reference/lambdas.html
 
 
 
