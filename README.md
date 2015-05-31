@@ -35,7 +35,7 @@ and run `mix deps.get`.
 
 ## Usage
 
-By using FitEx you can write functions with one parameter by using t f macro. The parameter is named 'it'. 
+By using FitEx you can write one parameter functions with the f macro. The parameter is named 'it'. 
 
 ```elixir
 defmodule SomeModule do
