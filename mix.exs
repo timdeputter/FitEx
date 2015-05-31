@@ -5,6 +5,8 @@ defmodule Exit.Mixfile do
     [app: :fitex,
      version: "0.0.1",
      elixir: "~> 1.0.0",
+     description: "FitEx is a Macro-Module which provides a bit of sugar for function definitions.",
+     package: package,
      deps: deps]
   end
 
@@ -26,5 +28,12 @@ defmodule Exit.Mixfile do
   # Type `mix help deps` for more examples and options
   defp deps do
     []
+  end
+
+  defp package do
+    [files: ["lib", "priv", "mix.exs", "README*", "readme*", "LICENSE*", "license*"],
+     contributors: ["Tim de Putter"],
+     licenses: ["MIT"],
+     links: %{"GitHub" => "https://github.com/Puddah/FitEx"}]
   end
 end
