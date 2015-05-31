@@ -51,6 +51,7 @@ defmodule SomeModule do
       it_plus_one * 2
     end
   end
+  
 end
 ```
 
