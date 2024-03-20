@@ -1,4 +1,4 @@
-FitEx [![Build Status](https://travis-ci.org/timdeputter/FitEx.svg?branch=master)](https://travis-ci.org/timdeputter/FitEx) [![Hex.pm package version](https://img.shields.io/hexpm/v/FitEx.svg?style=flat)](https://hex.pm/packages/FitEx)
+FitEx [![Build Status](https://travis-ci.org/timdeputter/FitEx.svg?branch=master)](https://travis-ci.org/timdeputter/FitEx) [![Hex.pm package version](https://img.shields.io/hexpm/v/FitEx.svg?style=flat)](https://hex.pm/packages/fitex)
 ==========
 
 FitEx is a little Macro-Module which provides a alternative way for function definitions.
